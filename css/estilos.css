@@ -1,0 +1,86 @@
+body, html{
+    margin: 0;
+    height: 100%;
+ }
+header{
+    height: 80px;
+    background-color: darkgoldenrod;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#identificador{
+    margin-left: 25px;
+}
+nav > a{
+    margin-right: 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+a:hover{
+    color:orange;
+}
+h1{
+    margin: 0px;
+    color: darkgoldenrod;
+}
+.seccion1, .seccion2, .seccion3{
+    height: 40%;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.seccion1{
+    background-color:tan;
+}
+.seccion2{
+    background-color:darkkhaki;
+}
+.seccion3{
+    background-color:khaki;
+}
+.texto-seccion{
+    line-height: 25px;
+    color:navy;
+}
+hr{
+    border: 1px dotted white;
+}
+.textoimagen{
+    font-family:  'Ranga', cursive;
+    font-size:35px;
+    color:#38007F;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px;
+}
+.img1, .img2, .img3, .img4, .img5{
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.img1{
+    background-image: url("../img/-canto-a-la-tierra-1-.jpg");
+    height: 100%;
+}
+.img2{
+    background-image: url("../img/canto-2-.jpg");
+    height: 50%;
+}
+.img3{
+    background-image: url("../img/-desfile-magno-3-.jpg");
+    height: 50%;
+}
+.img4{
+    background-image: url("../img/-desfile-magno-4-.jpg");
+    height: 50%; 
+}
